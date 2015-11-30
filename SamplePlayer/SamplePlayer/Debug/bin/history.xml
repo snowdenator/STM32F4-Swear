@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=SamplePlayer.map -O0 --gc-sections -LE:\CoIDE\configuration\ProgramData\SamplePlayer -TE:\CoIDE\configuration\ProgramData\SamplePlayer/arm-gcc-link.ld -g">
+      <target file="SamplePlayer.elf" lastModified="151556810af">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="151553aa969"/>
+         <source file="..\obj\main.o" lastModified="15155680e82"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="151553aab0f"/>
+         <source file="..\obj\printf.o" lastModified="151554f825a"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="151553aacf1"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="151553aad91"/>
+         <source file="..\obj\syscalls.o" lastModified="151553aae04"/>
+         <source file="..\obj\misc.o" lastModified="151553aae93"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="151553aaf8f"/>
+      </target>
+   </processor>
+</history>
